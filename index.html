@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Msizi N: Technical Website Developer</title>
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="./css/uikit.min.css" />
+    <link rel="stylesheet" href="./css/swiper.css" />
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header> 
+        <!-- TOP BAR -->
+
+
+        <!-- LOGO AND NAVIGATION -->
+        <nav class="uk-navbar-container uk-navbar uk-container" >
+            <div class="uk-navbar-left">
+              <a class="uk-navbar-item uk-logo" href="#"><img src="./Images/mix-telematics-logo-white.svg" width="240" height="38" /></a>
+              <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas" uk-toggle></a>
+            </div>
+            <div class="uk-navbar-right uk-visible@m">
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li><a href="#">SOLUTIONS</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">VALUE ADDED SERVES </a></li>
+                    <li><a href="#">INDUSTRIES</a></li>
+                    <li><a href="#">RESOURCES</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                  </ul>
+            </div>
+          </nav>
+          
+          <!-- OFF CANVAS MENU -->
+
+          <div id="offcanvas" class="uk-offcanvas" uk-offcanvas="mode: push; overlay: true; flip: true; esc-close: true;">
+            <div class="uk-offcanvas-bar uk-background-default uk-flex uk-flex-column uk-dark uk-navbar-dropdown-nav">
+              <button class="uk-offcanvas-close" type="button" uk-close></button>
+              <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical uk-text-uppercase uk-text-secondary">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="uk-parent">
+                  <a href="#">Services</a>
+                  <ul class="uk-nav-sub">
+                    <li><a href="#">SOLUTIONS</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">VALUE ADDED SERVES </a></li>
+                    <li><a href="#">INDUSTRIES</a></li>
+                    <li><a href="#">RESOURCES</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+	</header>
+
+	<main>
+        <!-- HERO  -->
+        <section class="hero-section uk-section">
+                <div class="uk-container uk-container-large">
+                        <h1 class="uk-text-uppercase">MIX FLEET MANAGER<sup>TM</sup></h1>
+                        <h2>Optimise your fleet and boost driver safety with a proven <br>telematics solution that works for you.</h2>
+                        <button class="uk-button uk-button-primary cta" href="#">Read more</button>
+                      </div>
+                      <div class="uk-width-1-2@m">
+                        <!-- second column content here -->
+                  </div>
+          </section>
+
+        <!-- SLIDES -->
+        <section class="uk-container">
+
+         <h3 class="uk-text-center mt-3"><strong>What can fleet telematics</strong> do for your business?</h3> 
+         <div class="slide-container">
+            <div class="slide">
+              <div class="image-container">
+                <img src="./Images/1-35 - coaching.jpg" alt="your-image-description">
+              </div>
+              <div class="text-container">
+                <h2>Fleet management technology
+                    that provides all the data you
+                    need from a single pane of glass</h2>
+                <p>Fleet management solutions offer fleet
+                    operators unlimited access to real-time
+                    data about their drivers and vehicles, with
+                    a host of features, tools and reports to
+                    maximis return on investment.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="image-container">
+                <img src="./Images/1-6 - wave.jpg" alt="your-image-description">
+              </div>
+              <div class="text-container">
+                <h2>Your Title 2</h2>
+                <p>Your text content 2 goes here.</p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="prev-btn">Previous</button>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+        
+      </section>
+      <!-- SLIDE SECTION -->
+      <section class="uk-section uk-section-default">
+
+        <h1 class="uk-text-center mb-3"><strong>WHAT OUR CUSTOMERS HAVE TO SAY</strong></h1>
+
+        <div class="uk-container">
+          <div class="uk-grid uk-grid-medium uk-child-width-1-2@m" uk-grid>
+            <div>
+              <blockquote>
+                <p>"Our crash rates and associated repair and
+                  maintenance costs have dropped considerably,
+                  ensuring a safer workplace."</p>
+                <footer class="white-footer"> <cite title="MICHAEL BORG, MANAGING DIRECTOR">MICHAEL BORG, MANAGING DIRECTOR</cite></footer>
+              </blockquote>
+            </div>
+            <div>
+              <img src="./Images/Borg-logo.png" alt="Borg Logo" width="400" />
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+      <!-- ACCORDION SECTION -->
+      <section class="uk-section accordion-section">
+        <div class="uk-container">
+          
+          <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+              <ul uk-accordion="multiple: true">
+                <li>
+                    <a class="uk-accordion-title" href="#">VITAL TRACKING FUNCTIONALITY</a>
+                    <div class="uk-accordion-content">
+                        <p>The tracking module provides a real-time view of a vehicle or asset’s position – whether it’s stationary or on the move – and which driver is behind the wheel. It also shows information relating to speed, driving direction, ignition status, driving violations, past trips and more.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">POWERFUL DATA & REPORTING</a>
+                    <div class="uk-accordion-content">
+                        <p>The solution’s robust reporting capability enables data to be reviewed and analysed in detail as well as in dynamic and customisable formats. Reports include movement, location, and trip and utilisation reports, as well as driver scoring, fuel, event violations and cost analysis reports.</p>
+                    </div>
+                </li>
+            </ul>
+            </div>
+            <div>
+              <ul uk-accordion="multiple: true">
+                <li>
+                    <a class="uk-accordion-title" href="#">LIVE INFORMATION STREAMS</a>
+                    <div class="uk-accordion-content">
+                        <p>Proactive monitoring is possible thanks to live streams of information. These streams are user-defined and contain information about events as well as messages to and from the connected asset and/or driver. For priority trips, a stream can be undocked and kept open while navigating the rest of the application.</p>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">FLEXIBLE TO YOUR NEEDS</a>
+                    <div class="uk-accordion-content">
+                        <p>MiX Fleet Manager is compatible with a flexible range of services, add-ons and accessories. Depending on specific operational goals or regional requirements, customers can choose from video recording systems, in-cab navigation and messaging devices, driver engagement tools, an Hours of Service solution, journey management and satellite communication among others.</p>
+                    </div>
+                </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+
+      <!-- ALTERNATING IMAGES SECTION -->
+      <section class="uk-section">
+        
+          <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+            <div class="uk-background-cover waving" style="background-image: url('./Images/1-6\ -\ wave.jpg');">
+            </div>
+
+            <div>
+              <div class="waving-text-wrap" >
+                <h3><strong> LOGGING
+                  DEVICE<br> (ELD)</strong></h3>
+                <p>MiX Telematics’s ELD (electronic logging
+                  device) has been specifically designed
+                  to manage and maintain your fleet’s
+                  compliance with the Hours of Service
+                  (HOS) rule through electronically
+                  tracking drivers’s Record of Duty Status
+                  (RODS) as an effective replacement for
+                  outdated paper logbooks.</p>
+
+                <a class="uk-button uk-button-primary" href="#">FIND OUT MORE</a>
+              </div>
+            </div>
+
+          </div>
+        
+      </section>
+
+      <section class="uk-section">
+        <div class="uk-container">
+          <div class="uk-child-width-1-2@m" uk-grid>
+            <div class="waving-text-wrap">
+              <h2><strong> MIX VISION AI</strong></h2>
+
+              <h4><strong> Get more ROI when you combine<br>
+                Video Telematics with MiX Fleet<br>
+                Manager</strong></h4>
+                
+              <p>Our AI-powered dashcam system
+                provides drivers and fleet managers
+                with real-time and audible alerts for
+                risky driving with road, in-cab and driver
+                cameras for a full-view to maximise
+                safety and eliminate driver fatigue</p>
+
+              <a class="uk-button uk-button-primary" href="#">FIND OUT MORE</a>
+            </div>
+            <div>
+              <div class="uk-text-center" style="background-image: url(./Images/green-circle.png);">
+                <img src="./Images/New Camera Image.png"  width="550" height="650" alt="New Camera Product">
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="uk-section">
+        
+        <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+          <div class="uk-background-cover waving" style="background-image: url('./Images/AdobeStock_424615785.jpg');">
+          </div>
+
+          <div>
+            <div class="waving-text-wrap" >
+              <h2><strong> MIX JOURNEY <br>
+                MANAGEMENT</strong></h2>
+              <p>An alternative to paper-based systems,
+                this wholly online fleet management
+                solution incorporates journey requests,
+                journey approvals and journey
+                monitoring. MiX Journey Management
+                is the first system to fully integrate with
+                a premium fleet manager system.</p>
+
+              <a class="uk-button uk-button-primary" href="#">FIND OUT MORE</a>
+            </div>
+          </div>
+
+        </div>
+      
+    </section>
+
+    <section class="uk-section">
+      <div class="uk-container">
+        <div class="uk-child-width-1-2@m" uk-grid>
+          <div class="waving-text-wrap">
+            <h2><strong> POWERFUL VIDEO TELEMATICS</strong></h2>
+
+            <h4><strong> Get more ROI when you combine<br>
+              Video Telematics with MiX Fleet<br>
+              Manager</strong></h4>
+              
+            <p>Our AI-powered dashcam system
+              provides drivers and fleet managers
+              with real-time and audible alerts for
+              risky driving with road, in-cab and driver
+              cameras for a full-view to maximise
+              safety and eliminate driver fatigue</p>
+
+            <a class="uk-button uk-button-primary" href="#">LEARN MORE</a>
+          </div>
+          <div>
+            <div class=" uk-background-cover mix-rovi">
+              <img src="./Images/MiX Rovi.png" width="1000" height="1000" alt="MIX ROVI">
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="uk-section">
+        
+      <div class="uk-grid-match uk-child-width-1-2@m"  uk-grid>
+        <div class="uk-background-cover my-mix" style="background-image: url('./Images/AdobeStock_249912030.jpg');">
+          <img src="./Images/MyMiX.png" width="59" height="130" alt="My Mix">
+          
+        </div>
+
+        <div>
+          <div class="waving-text-wrap" >
+            <h2><strong> MYMIX<sup>TM</sup></strong></h2>
+            <p>MyMiX is a comprehensive driver
+              engagement app that helps drivers
+              assess and improve their driving
+              performance. It equips drivers with
+              tools such as a performance
+              dashboard, scoring and ranking
+              models, event viewing and driver
+              activity reporting to create a safer,
+              more economical driving culture</p>
+
+            <a class="uk-button uk-button-primary" href="#">GET IN TOUCH</a>
+          </div>
+        </div>
+
+      </div>
+    
+  </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="uk-section uk-section-secondary uk-padding-remove-bottom">
+        <div class="uk-container ">
+
+
+          </div>
+
+        </div>
+    </footer>
+</body>
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- UIkit JS -->
+	<script src="./js/uikit-icons.min.js"></script>
+	<script src="./js/uikit.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+  direction: 'horizontal',
+  loop: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+    </script>
+	<!-- Custom JS -->
+	<script src="./js/main.js"></script>
+</html>
+
+		
